@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<html lang="es">   
+
+ <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../asset/img/favicon.png">
+    <link rel="stylesheet" href="../asset/css/style.css" />
+	<title>Centro Ítalo-Argentino</title>
+ </head>
+ <body>
+    <header class="animacionmenu">
+        <img src="../asset/img/logo.png" alt="logo header" class="logoheader">
+        <h1> Centro Ítalo-Argentino para la cooperación y el desarrollo</h1>
+        <nav class="nav">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+             </label>
+
+
+            <ul class="menu">
+                <li class="menu__hijo"> 
+                    <a class="menu__link" href="../index.html">Home</a>
+                </li>
+                <li class="menu__hijo"> 
+                    <a class="menu__link" href="./institucional.html">Institucional</a>
+                </li>
+                <li class="menu__hijo">
+                    <a class="menu__link" href="./programas.html">Programas</a>
+                </li>
+                <li class="menu__hijo"> 
+                    <a class="menu__link" href="./equipo.html">Equipo</a>
+                </li>
+                <li class="menu__hijo"> 
+                    <a  class="menu__link" href="./contacto.html">Contacto</a>
+                </li>           
+            </ul>
+        
+        </nav>
+    </header>
+
+    <article>
+        <h2>CONTACTO</h2>
+        <form>
+            <form action="#">
+                <label for="NOMBRE">NOMBRE 
+					<input type="text" name="NOMBRE"><br>
+				</label>
+
+                <label for="APELLIDO">APELLIDO
+				     <input type="text" name="APELLIDO"><br>
+                </label>
+
+                <label for="TELEFONO">TELEFONO
+                    <input type="number" name="TELEFONO"> <br>
+               </label>
+
+                <label for="E-MAIL">E-MAIL
+                    <input type="email"  name="E-MAIL"><br>
+               </label>
+                <br><br>
+                <p>
+            DEJA TU MENSAJE:<br>
+                 <textarea name="mensaje"></textarea>
+                </p>
+                
+                <div><p>¿Cómo nos conociste?</p>
+					<div>Redes Sociales
+						<input type="radio" value="Redes Sociales">
+					</div>
+					<div>Web
+						<input type="radio" value="Web">
+                    </div>
+                    <div>Otros
+						<input type="radio" value="otros">
+                    </div>
+				</div>
+
+               <br>
+               
+                <p>De que te gustaría recibir información</p>
+				<select name="Ciudad" id="Ciudad"> 
+					<option value="Roma">Roma</option>
+					<option value="Milan">Milan</option>
+					<option value="Venecia">Venecia</option>
+				</select>
+                <br><br>
+                <input type="submit" value="Enviar el formulario">
+                <input type="reset" value="Borrar la información">
+				
+
+        </form>
+    </article>
+
+    <footer>
+		<h4>REDES SOCIALES</h4>
+		<h4>CONTACTO</h4>
+        
+	</footer>
+</body>
