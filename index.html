@@ -4,87 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Ítalo-Argentino</title>
+    <link rel="stylesheet" href="./boostrap/css/bootstrap.min.css">
+    <script src="./boostrap/js/jquery.slim.min.js"></script>
+    <script src="./boostrap/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="shortcut icon" href="./asset/img/favicon.png">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./asset/animate.css">
-    <script> src="./asset/wowjs/wow.js"</script>
-    <script>
-        new WOW().init();
-     </script>
-  
+    <link rel="stylesheet" href="css/all.min.css">
+
     <!--link tipografia-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-    <title>Centro Ítalo-Argentino</title>
+    
 </head>
 
 <body>
-    <header class="animacionmenu">
-        <img src="./asset/img/logo.png" alt="logo header" class="logoheader">
-        <h1> Centro Ítalo-Argentino para la cooperación y el desarrollo</h1>
-        <nav class="nav">
-
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-            </label>
-
-
-            <ul class="menu">
-                <li class="menu__hijo"> 
-                    <a class="menu__link" href="/index.html">Home</a>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+            <a class="navbar-brand" href="#"><img src="./asset/img/logo.png" class="logo-brand" alt="logo"></a>
+            <h1> Centro Ítalo-Argentino para la Cooperación y el desarrollo</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+                </label>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
                 </li>
-                <li class="menu__hijo"> 
-                    <a class="menu__link" href="./pages/institucional.html">Institucional</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/institucional.html">Institucional</a>
                 </li>
-                <li class="menu__hijo">
-                    <a class="menu__link" href="./pages/programas.html">Programas</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/programas.html">Programas</a>
                 </li>
-                <li class="menu__hijo"> 
-                    <a class="menu__link" href="./pages/equipo.html">Equipo</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/equipo.html">Equipo</a>
                 </li>
-                <li class="menu__hijo"> 
-                    <a  class="menu__link" href="./pages/contacto.html">Contacto</a>
-                </li>           
-            </ul>
-        
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            </div>
         </nav>
-        
     </header>
-
-    <main>
-        <div class="animacion">
-        <section id="quienessomos">
-            <h2 class="wow animate__animated animate__backInDown" data-wow-duration="2s" data-wow-delay="1s">¿Quienes somos?</h2>
-            <div id="textosection" class="wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
-                <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet vero impedit id non, dolor, corporis temporibus quia, quam adipisci voluptatum explicabo voluptas voluptatem aut magnam alias sapiente dignissim. impedit id non, dolor, corporis temporibus quia, quam adipisci voluptatum explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet vero impedit id non, dolor, corporis temporibus quia, quam adipisci voluptatum explicabo voluptas voluptatem aut magnam alias sapiente dignissim. impedit id non, dolor, corporis temporibus quia, quam adipisci voluptatum explicabo 
-                </p>
-                
-                <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nobis nam, accusantium nemo dolores praesentium sequi maiores! Alias autem harum ullam dolorem fuga adipisci eum facilis officia, consequuntur sit. Ipsa. impedit id non, dolor, corporis temporibus quia, quam adipisci voluptatum explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet vero impedit id non, dolor, corporis temporibus quia, quam adipisci voluptatum explicabo voluptas voluptatem aut magnam alias sapiente dignissim. impedit id non, dolor, corporis temporibus quia, quam adipisci voluptatum explicabo 
+    <section id="hero">
+        
+        <div class="container">
+            <div class="content-center">
+                <h2>¿Quienes somos?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iure repellat sapiente odit delectus est voluptas alias ut fugit reiciendis nam libero, neque non dolores ad sit ducimus soluta qui.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iure repellat sapiente odit delectus est voluptas alias ut fugit reiciendis nam libero, neque non dolores ad sit ducimus soluta qui.
                 </p>
             </div>
-        </section>
         </div>
+    </section>
 
-        <article class="articulohome">
-            <img src="./asset/img/foto2.jpg" alt="imagen1" class="imagen1">
-            <p class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi culpa suscipit pariatur, nisi soluta tempora impedit sit vitae, consequuntur quis qui aliquid alias totam officiis laboriosam temporibus deserunt repellat?vitae, consequuntur quis qui aliquid alias totam officiis laboriosam temporibus deserunt repellatconsequuntur quis qui aliquid alias totam officiis laboriosam temporibus deserunt repellat?vitae, consequuntur quis qui aliquid alias totam officiis laboriosam temporibus deserunt repellat
-            </p>
-            
-            <img src="./asset/img/foto2.jpg" alt="imagen1" class="imagen1">
-            <p class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi culpa suscipit pariatur, nisi soluta tempora impedit sit vitae, consequuntur quis qui aliquid alias totam officiis laboriosam temporibus deserunt vitae, consequuntur quis qui aliquid alias totam officiis laboriosam temporibus deserunt repellat repellat?consequuntur quis qui aliquid alias totam officiis laboriosam temporibus deserunt repellat?vitae, consequuntur quis qui aliquid alias totam officiis laboriosam temporibus deserunt repellat</p>
+    <section id="servicios">
+        <div class="container-fluid">
+            <div class="content-center">
+                <h3> Nuestros Servicios</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illum ducimus obcaecati cum, at temporibus consequuntur asperiores aspernatur iusto impedit nisi vitae sequi illo nulla fugiat, libero repellat ex ipsum?</p>
+            </div>       
+        </div>
+    </section>
 
-        </article>
-    </main>
+    <section>
+        <div class="media">
+            <img class="d-flex mr-3" src="./asset/img/logo.png" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0">Media heading</h5>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          
+              <div class="media mt-3">
+                <a class="d-flex pr-3" href="#!">
+                  <img src="./asset/img/logo.png" alt="Generic placeholder image">
+                </a>
+                <div class="media-body">
+                  <h5 class="mt-0">Media heading</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
 
-        <footer>
-             <p>Copyright &copy; 2022 CITAR. Todos los derechos reservados.</p> 
-            
-        </footer>
+    <footer>
+        <p>Copyright &copy; 2022 CITAR. Todos los derechos reservados.</p> 
+       
+   </footer>
+
    
-
 </body>
 </html>

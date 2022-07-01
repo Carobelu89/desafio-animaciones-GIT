@@ -15,158 +15,77 @@ html{
     font-family: 'Roboto', sans-serif
 }
 
-/*.................inicio del css del header con FLEX */
+body{
+    font-family:'Titillium Web', sans-serif;
+}
 
-header {
-    margin-top: 1px;
-    display: flex;
+section{
+    padding: 120px 0;
 }
-/*.........................................ANIMACIÓN Y TRANSFORMACIÓN MENÚ */
-.animacionmenu{
-    background-image: linear-gradient(to top, white,rgb(181, 180, 180));
-}
-    
-  
+
 h1{
-    font-size: 15px;
-    align-items:center;
-    padding: 2rem;
-    width: 20%;
-    color: #051367;
+    font-size: 20px;
+    text-align: justify;
+    width: 200px;
 }
 
-.nav{
-   width: 100%;
-   height: 20%;
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
-
-.menu{
-    list-style-type: none;
-    display: flex;
-    width: 40vw;
-    align-items: center;
-}
-
-.menu__hijo, .menu__link{
-    text-decoration: none;
-    color: black;
-    justify-content: space-evenly;
-    display: inline-block;
-    padding: 5px;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    width: 50%;
-    height: 50%;
-}
-
-header nav ul li a:hover{
-    color:#1223e1;
-}
-
-.logoheader{
-    width: auto;
-    height: 100px;
-    margin-top: 10px;
-}
-
-
-.checkbtn{
+h2{
     font-size: 30px;
-    color: #080000;
-    float: right;
-    line-height: 80px;
-    margin-right: 50px;
-    cursor: pointer;
-    display: none;
+
+}
+
+.navbar{
+    background-color: #ffff;
+    box-shadow: 0 2px 4px 0 #000000;
+    min-height: 100px;
+}
+
+.nav-link{
+    color: #000000;
+}
+
+.logo-brand{
+    min-width: 50px;
+    max-width: 80px;
+   
 }
 #check{
     display: none;
 }
 
-
-/*........................inicio css main con GRIDS*/
-
-main{
-    display: grid;
-    grid-template-areas: 
-    "Quienessomos"
-    "articulos"
-    ;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-row-gap: 5px;
-   
+#hero {
+    background-color: #7D9D9C;
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 500px;
+    color: #ffff;
 }
-/*.................inicio css main section con FLEX y GRIDS */
 
-/*.........................................ANIMACIÓN Y TRANSFORMACIÓN MENÚ */
-
-.animacion{
-    background-image: linear-gradient(to bottom, #051367,#444961,#898a90);
-}
-#quienessomos {
-    color:white
-       
-     }
-    
-        
-#quienessomos h2{
-    text-align: center;
+h2{
     font-size: 50px;
-    font-weight: bold;
-   
-}
+    font-weight: 600px;
+    line-height: 80px;
 
-#textosection{
-    display: flex;
-    justify-content: space-between;
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    padding: 5px;
-    font-size: 15px;
-    
 }
 
-
-div#textosection p{
-    color: white;
-    text-align: justify;
-    padding: 15px;
-    
+#servicios{
+    box-shadow: 0 2px 4px 0 #000000;
 }
 
 
 
-/*..................inicio css main article FLEX*/
-.articulohome{
+.media{
     width: auto;
-    height: 350px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    border: 2px solid grey;
-    }
-
-.parrafo1{
-    text-align:justify;
-    padding: 5px;
+    height: 200px;
 }
-.imagen1{
-    width: 300px;
-    height: auto;
-    border-radius: 2rem;
-    padding: 10px;
-    justify-content: center;
-}
-
-
-
-/*...................inicio css footer con FLEX*/
 
 footer{
-    background-color: #051367;
+    background-color: #7D9D9C;
     color: white;
     padding: 3px;
     display: flex;
@@ -176,212 +95,7 @@ footer{
 }
 
 
-/*....................inicio css pagina: programas con FLEX*/
-
-.programas{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-weight: 20px;
-    
-    
-  }
-.articleBecas {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    padding: 0.5rem;
-    flex-wrap: wrap;
-  }
-
-   
-  div {
-    background-image: linear-gradient(to bottom, #051367,#444961,#898a90);
-    font-size: 2rem;
-    font-weight: bolder;
-    color: white;
-    flex: 1 400px;
-    padding: 2rem;
-    margin: 0.5rem;
-  }
-
-  div:hover{
-
-    color: black;
-
-  }
-        
 
 
 
-/*....................inicio media queris*/
-
-@media screen and (max-width: 768px) {
-
-    h1{
-        font-size: 10px;
-        align-items:center;
-        margin-top: 10px;
-        padding: 2rem;
-        width: 10%;
-        color: #051367;
-    }
-  
-    .logoheader{
-        width: 30%;
-        height: auto;
-    }
-    
-    .checkbtn{
-        display: block;
-    }
-
-
-    .menu{
-        position:fixed;
-        width: 100%;
-        height: 50vh;
-        background: #051367;
-        top: 80px;
-        left: -100%;
-        text-align:center;
-        transition: all .5s;
-        
-    }
-
-    .menu__hijo, .menu__link{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    header nav ul li a{
-        font-size: 15px;
-    }
-
-
-    #check:checked ~ .menu{
-        left:0;
-    }
-
-    section#quienessomos{
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        width: 100%;
-        height: 50vh;
-        
-    }
-
-    #quienessomos h2{
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        width: 100%;
-        
-    }
-    
-    #textosection{
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-        padding: 5px;
-        font-size: 10px;
-        
-        
-    }
-
-    .articulohome{
-        width: 70%;
-        height: auto;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        border: 2px solid grey;
-        flex-direction: column;
-        width: 100%;
-        
-        }
-
-    .parrafo1{
-            text-align:justify;
-            font-size: 15px;
-            padding: 3px;
-            height: auto;
-            justify-content: center;
-        }
-
-    .imagen1{
-            width: 30%;
-            height: auto;
-            border-radius: 2rem;
-            padding: 5px;
-            justify-content: center;
-            align-items: center;
-        }
-
-
-    footer{
-        width: 100%;
-        height: auto;
-        
-         }
-
-         /*....................inicio css pagina: programas con FLEX*/
-
-.programas{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    flex-direction: column;
-    
-}
-
-.tituloBecas{
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
- 
-}
-
-.fotoBeca{
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 70%;
-   
-        
-}
-
-.programasBecas{
-    text-align: justify;
-    width: 40%;
-    height: 20;
-    align-items: center;
-    font-weight: bold;
-}
-
-    }
-    
-    @media screen and (max-width: 412px){
-
-        .menu{
-            position:fixed;
-            width: 100%;
-            height: 50vh;
-            background: #051367;
-            top: 80px;
-            left: -100%;
-            text-align:center;
-            transition: all .5s;
-            
-        }
-    
-        header nav ul li a{
-            font-size: 2px;
-            color: white;
-        }
-
-    }
- 
 
