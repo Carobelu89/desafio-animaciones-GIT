@@ -1,51 +1,88 @@
-<!DOCTYPE html> 
-<html lang="es">   
-
- <head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="../asset/img/favicon.png">
-    <link rel="stylesheet" href="../asset/css/style.css" />
-	<title>Centro Ítalo-Argentino</title>
- </head>
- <body>
-    <header class="animacionmenu">
-        <img src="../asset/img/logo.png" alt="logo header" class="logoheader">
-        <h1> Centro Ítalo-Argentino para la cooperación y el desarrollo</h1>
-        <nav class="nav">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Ítalo-Argentino</title>
+    <link rel="stylesheet" href="../boostrap/css/bootstrap.min.css">
+    <script src="../boostrap/js/jquery.slim.min.js"></script>
+    <script src="../boostrap/js/bootstrap.bundle.min.js"></script>
 
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-             </label>
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <link rel="shortcut icon" href="../asset/img/favicon.png">
+    <link rel="stylesheet" href="../css/all.min.css">
 
+    <link rel="stylesheet" href="../asset/animate.css">
+    <script> src="../asset/wowjs/wow.js"</script>
+    <script>
+        new WOW().init();
+     </script>
 
-            <ul class="menu">
-                <li class="menu__hijo"> 
-                    <a class="menu__link" href="../index.html">Home</a>
+    <!--link tipografia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+            <a class="navbar-brand" href="#"><img src="../asset/img/logo.png" class="logo-brand" alt="logo"></a>
+            <h1> Centro Ítalo-Argentino para la Cooperación y el desarrollo</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+                </label>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
                 </li>
-                <li class="menu__hijo"> 
-                    <a class="menu__link" href="./institucional.html">Institucional</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./institucional.html">Institucional</a>
                 </li>
-                <li class="menu__hijo">
-                    <a class="menu__link" href="./programas.html">Programas</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./programas.html">Programas</a>
                 </li>
-                <li class="menu__hijo"> 
-                    <a class="menu__link" href="./equipo.html">Equipo</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./equipo.html">Equipo</a>
                 </li>
-                <li class="menu__hijo"> 
-                    <a  class="menu__link" href="./contacto.html">Contacto</a>
-                </li>           
-            </ul>
-        
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            </div>
         </nav>
     </header>
 
-    <article>
-        <h2 class="masinfo">Más Información</h2>
-        <iframe width="560" height="315" src="https://conslaplata.esteri.it/consolato_laplata/es/" title="Consulado Italiano en La Plata" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
+    <section>
+     <div class="d-flex justify-content-between">
+        <div class="p-2">
+            <img src="../asset/img/fotoperfil1.jpg" alt="fotoperfil1" class="fotoperfil">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus optio aliquid facilis molestiae quod a, vero modi sunt laborum dolore vitae rem, repudiandae nostrum quas corporis cupiditate! Fuga, architecto eveniet.</p>
+        </div>
+        <div class="p-2">
+            <img src="../asset/img/fotoperfil2.jpg" alt="fotoperfil2" class="fotoperfil">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus optio aliquid facilis molestiae quod a, vero modi sunt laborum dolore vitae rem, repudiandae nostrum quas corporis cupiditate! Fuga, architecto eveniet.</p>
+        </div>
+        <div class="p-2">
+            <img src="../asset/img/fotoperfil3.jpg" alt="fotoperfil3" class="fotoperfil">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus optio aliquid facilis molestiae quod a, vero modi sunt laborum dolore vitae rem, repudiandae nostrum quas corporis cupiditate! Fuga, architecto eveniet.</p>
+        </div>
+      </div>
 
+   
+    </section>
+    
     <footer>
 		<h4>REDES SOCIALES</h4>
 		<h4>CONTACTO</h4>

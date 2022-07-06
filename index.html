@@ -13,6 +13,12 @@
     <link rel="shortcut icon" href="./asset/img/favicon.png">
     <link rel="stylesheet" href="css/all.min.css">
 
+    <link rel="stylesheet" href="./asset/animate.css">
+    <script> src="./asset/wowjs/wow.js"</script>
+    <script>
+        new WOW().init();
+     </script>
+
     <!--link tipografia-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,13 +64,14 @@
         </nav>
     </header>
     <section id="hero">
-        
-        <div class="container">
+        <div class="animacion">
+            <div class="container">
             <div class="content-center">
-                <h2>¿Quienes somos?</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iure repellat sapiente odit delectus est voluptas alias ut fugit reiciendis nam libero, neque non dolores ad sit ducimus soluta qui.
+                <h2 class= "wow animate__animated animate__backInDown" data-wow-duration="2s" data-wow-delay="1s">¿Quienes somos?</h2>
+                <p id="textosection" class="wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="1s">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iure repellat sapiente odit delectus est voluptas alias ut fugit reiciendis nam libero, neque non dolores ad sit ducimus soluta qui.
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iure repellat sapiente odit delectus est voluptas alias ut fugit reiciendis nam libero, neque non dolores ad sit ducimus soluta qui.
                 </p>
+            </div>
             </div>
         </div>
     </section>
